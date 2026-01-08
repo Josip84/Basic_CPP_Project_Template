@@ -1,0 +1,12 @@
+
+{
+  "name": "cpp-starter",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "fmt",
+    {
+      "name": "catch2",
+      "default-features": true
+    }
+  ]
+}

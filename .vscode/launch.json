@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json.schemastore.org/launch",
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch (Windows MinGW gdb) Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/win-gcc-debug/cpp_starter.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [
+        {
+          "name": "PATH",
+          "value": "C:\\mingw64\\bin;${env:PATH}"
+        }
+      ],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+      "preLaunchTask": "build: win-gcc-debug"
+    },
+    {
+      "name": "Launch (Windows Clang + gdb) Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/win-clang-debug/cpp_starter.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [
+        {
+          "name": "PATH",
+          "value": "C:\\mingw64\\bin;${env:PATH}"
+        }
+      ],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+      "preLaunchTask": "build: win-clang-debug"
+    },
+    {
+      "name": "Launch (Windows MSVC / Visual Studio) Debug",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/win-msvc-vs-debug/Debug/cpp_starter.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "preLaunchTask": "build: win-msvc-vs-debug"
+    },
+    {
+      "name": "Launch (Linux GCC gdb) Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/linux-gcc-debug/cpp_starter",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "preLaunchTask": "build: linux-gcc-debug"
+    },
+    {
+      "name": "Launch (Linux GCC gdb) Release",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/linux-gcc-release/cpp_starter",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "preLaunchTask": "build: linux-gcc-release"
+    },
+    {
+      "name": "Launch (Linux Clang gdb) Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/linux-clang-debug/cpp_starter",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "preLaunchTask": "build: linux-clang-debug"
+    },
+    {
+      "name": "Launch (Linux Clang gdb) Release",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/linux-clang-release/cpp_starter",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "preLaunchTask": "build: linux-clang-release"
+    },
+    {
+      "name": "Launch (Windows MinGW gdb) Release",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/win-gcc-release/cpp_starter.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [
+        {
+          "name": "PATH",
+          "value": "C:\\mingw64\\bin;${env:PATH}"
+        }
+      ],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+      "preLaunchTask": "build: win-gcc-debug"
+    },
+    {
+      "name": "Launch (Windows Clang + gdb) Release",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/win-clang-release/cpp_starter.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [
+        {
+          "name": "PATH",
+          "value": "C:\\mingw64\\bin;${env:PATH}"
+        }
+      ],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+      "preLaunchTask": "build: win-clang-debug"
+    },
+    {
+      "name": "Launch (Windows MSVC / Visual Studio) Release",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/win-msvc-vs-release/Release/cpp_starter.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "preLaunchTask": "build: win-msvc-vs-release"
+    }
+  ]
+}

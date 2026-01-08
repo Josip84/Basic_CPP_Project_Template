@@ -1,0 +1,22 @@
+
+# Build folders
+/build/
+build/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/*.dir/
+
+# VS Code
+.vscode/ipch/
+
+# Binaries
+**/*.exe
+**/*.dll
+**/*.lib
+**/*.pdb
+**/*.so
+**/*.dylib
+
+# Other
+compile_commands.json

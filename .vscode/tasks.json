@@ -1,0 +1,278 @@
+{
+  "$schema": "https://schema.store/schemas/json/task.json",
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "configure: win-gcc-debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--preset",
+        "win-gcc-debug"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "configure: win-clang-debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--preset",
+        "win-clang-debug"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "configure: linux-gcc-debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--preset",
+        "linux-gcc-debug"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "configure: linux-gcc-release",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--preset",
+        "linux-gcc-release"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "configure: linux-clang-debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--preset",
+        "linux-clang-debug"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "configure: linux-clang-release",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--preset",
+        "linux-clang-release"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "configure: win-msvc-vs-debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--preset",
+        "win-msvc-vs-debug"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "configure: win-msvc-vs-release",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--preset",
+        "win-msvc-vs-release"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "build: win-gcc-debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "--preset",
+        "win-gcc-debug"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "build: win-clang-debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "--preset",
+        "win-clang-debug"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "build: linux-gcc-debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "--preset",
+        "linux-gcc-debug"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "build: linux-gcc-release",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "--preset",
+        "linux-gcc-release"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "build: linux-clang-debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "--preset",
+        "linux-clang-debug"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "build: linux-clang-release",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "--preset",
+        "linux-clang-release"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "build: win-msvc-vs-debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "--preset",
+        "win-msvc-vs-debug"
+      ],
+      "group": "build",
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build: win-msvc-vs-release",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "--preset",
+        "win-msvc-vs-release"
+      ],
+      "group": "build",
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "test: win-gcc-debug",
+      "type": "shell",
+      "command": "ctest",
+      "args": [
+        "--preset",
+        "win-gcc-debug"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "test: win-clang-debug",
+      "type": "shell",
+      "command": "ctest",
+      "args": [
+        "--preset",
+        "win-clang-debug"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "test: linux-gcc-debug",
+      "type": "shell",
+      "command": "ctest",
+      "args": [
+        "--preset",
+        "linux-gcc-debug"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "test: linux-gcc-release",
+      "type": "shell",
+      "command": "ctest",
+      "args": [
+        "--preset",
+        "linux-gcc-release"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "test: linux-clang-debug",
+      "type": "shell",
+      "command": "ctest",
+      "args": [
+        "--preset",
+        "linux-clang-debug"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "test: linux-clang-release",
+      "type": "shell",
+      "command": "ctest",
+      "args": [
+        "--preset",
+        "linux-clang-release"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "test: win-msvc-vs-debug",
+      "type": "shell",
+      "command": "ctest",
+      "args": [
+        "--preset",
+        "win-msvc-vs-debug"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "test: win-msvc-vs-release",
+      "type": "shell",
+      "command": "ctest",
+      "args": [
+        "--preset",
+        "win-msvc-vs-release"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}
