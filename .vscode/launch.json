@@ -50,7 +50,7 @@
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": false,
-      "preLaunchTask": "build: win-msvc-vs-debug"
+      "preLaunchTask": "build-and-run: win-msvc-vs-debug"
     },
     {
       "name": "Launch (Linux GCC gdb) Debug",
