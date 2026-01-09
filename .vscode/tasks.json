@@ -273,6 +273,36 @@
       ],
       "group": "test",
       "problemMatcher": []
+    },
+    {
+      "label": "build-and-run: win-gcc-debug",
+      "type": "shell",
+      "dependsOn": [
+        "configure: win-gcc-debug",
+        "build: win-gcc-debug"
+      ],
+      "dependsOrder": "sequence",
+      "isBackground": false
+    },
+    {
+      "label": "build-and-run: win-clang-debug",
+      "type": "shell",
+      "dependsOn": [
+        "configure: win-clang-debug",
+        "build: win-clang-debug"
+      ],
+      "dependsOrder": "sequence",
+      "isBackground": false
+    },
+    {
+      "label": "build-and-run: win-msvc-vs-debug",
+      "type": "shell",
+      "dependsOn": [
+        "configure: win-msvc-vs-debug",
+        "build: win-msvc-vs-debug"
+      ],
+      "dependsOrder": "sequence",
+      "isBackground": false
     }
   ]
 }

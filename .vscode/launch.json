@@ -19,7 +19,7 @@
       "externalConsole": false,
       "MIMode": "gdb",
       "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
-      "preLaunchTask": "build: win-gcc-debug"
+      "preLaunchTask": "build-and-run: win-gcc-debug"
     },
     {
       "name": "Launch (Windows Clang + gdb) Debug",
@@ -38,7 +38,7 @@
       "externalConsole": false,
       "MIMode": "gdb",
       "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
-      "preLaunchTask": "build: win-clang-debug"
+      "preLaunchTask": "build-and-run: win-clang-debug"
     },
     {
       "name": "Launch (Windows MSVC / Visual Studio) Debug",
