@@ -19,6 +19,9 @@ find_package(fmt CONFIG REQUIRED)
 # Main executable
 add_executable(cpp_starter src/main.cpp)
 
+# Include directories
+target_include_directories(cpp_starter PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
 # Link libraries
 target_link_libraries(cpp_starter PRIVATE fmt::fmt)
 
