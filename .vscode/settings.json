@@ -2,5 +2,7 @@
   "cmake.useCMakePresets": "always",
   "cmake.configureOnOpen": false,
   "cmake.generator": "Ninja",
-  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "C_Cpp.intelliSenseEngineFallback": "Enabled"
 }

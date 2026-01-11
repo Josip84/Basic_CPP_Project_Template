@@ -1,0 +1,81 @@
+{
+  "configurations": [
+    {
+      "name": "GCC (MinGW)",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/build/win-gcc-debug/vcpkg_installed/x64-mingw-dynamic/include",
+        "C:/mingw64/include",
+        "C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++",
+        "C:/mingw64/x86_64-w64-mingw32/include"
+      ],
+      "defines": [
+        "_DEBUG",
+        "_CRT_SECURE_NO_WARNINGS",
+        "FMT_SHARED"
+      ],
+      "compilerPath": "C:/mingw64/bin/g++.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "windows-gcc-x64",
+      "compileCommands": "${workspaceFolder}/build/win-gcc-debug/compile_commands.json",
+      "browse": {
+        "path": [
+          "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": "${workspaceFolder}/.vscode/.browse.VC.db"
+      }
+    },
+    {
+      "name": "Clang",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/build/win-clang-debug/vcpkg_installed/x64-windows/include"
+      ],
+      "defines": [
+        "_DEBUG",
+        "_CRT_SECURE_NO_WARNINGS"
+      ],
+      "compilerPath": "clang-cl.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "windows-clang-x64",
+      "compileCommands": "${workspaceFolder}/build/win-clang-debug/compile_commands.json",
+      "browse": {
+        "path": [
+          "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": "${workspaceFolder}/.vscode/.browse.VC.db"
+      }
+    },
+    {
+      "name": "MSVC",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/build/win-msvc-vs-debug/vcpkg_installed/x64-windows/include"
+      ],
+      "defines": [
+        "_DEBUG",
+        "_CRT_SECURE_NO_WARNINGS",
+        "_WIN32"
+      ],
+      "compilerPath": "cl.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "windows-msvc-x64",
+      "browse": {
+        "path": [
+          "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": "${workspaceFolder}/.vscode/.browse.VC.db"
+      }
+    }
+  ],
+  "version": 4
+}
